@@ -1,0 +1,83 @@
+body {
+    background: url("/static/images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    /* background-color: #f4f4f4; */
+}
+#predictionModalLabel{
+    color: antiquewhite;
+}
+
+  
+
+.container {
+
+    float: right;
+    margin-left: 20px; 
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: rgb(237, 203, 129);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
+  
+  
+
+.animated-dog {
+    width: 100px;
+    animation: bounce 3s infinite alternate ease-in-out;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#previewImage {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+#predictionList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+#predictionList li {
+    font-size: 16px;
+    line-height: 1.5; 
+    margin-bottom: 8px;
+}
+
+.modal-content {
+    background-color:#BEB8AF; 
+}
+
+.modal-header {
+    background-color: #4e4949; 
+    border-bottom: 1px solid #212529;
+}
